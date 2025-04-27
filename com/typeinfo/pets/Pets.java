@@ -4,9 +4,10 @@ package com.typeinfo.pets;
 import java.util.*;
 
 public class Pets {
-  public static final PetCreator creator =
-    new LiteralPetCreator();
-  public static Pet randomPet() {
+  public static final PetCreator creator = new LiteralPetCreator();
+
+  //获取一个随机宠物
+  public static Pet get() {
     return creator.randomPet();
   }
   public static Pet[] createArray(int size) {
@@ -34,5 +35,6 @@ public class Pets {
         }
     }
     return result;
-}
+  }
+
 } ///:~
