@@ -1,6 +1,7 @@
 package com.collections;
 
 import com.onjava.*;
+
 public class StackTest2 {
 
     public static void main(String[] args) {
