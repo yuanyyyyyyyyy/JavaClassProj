@@ -20,7 +20,7 @@ public class Pets {
   //自加
   private static Random rand = new Random(47);
 
-  // 模拟一个“宠物池子”
+  // 模拟一个“宠物池子”,随机生成size个宠物
   private static List<Class<? extends Pet>> types = List.of(
     Dog.class, Cat.class, Hamster.class
   );
