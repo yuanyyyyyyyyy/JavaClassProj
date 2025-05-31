@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "example/exp5/jar"
+        "example/exp5/lib",
+        "com/example/exp5/lib/commons-dbutils-1.8.1.jar",
+        "com/example/exp5/lib/mysql-connector-j-9.3.0.jar"
     ]
 }

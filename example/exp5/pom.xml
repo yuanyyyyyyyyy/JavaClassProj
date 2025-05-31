@@ -43,3 +43,10 @@
         </plugins>
     </build>
 </project>
+
+        <!-- Alibaba Druid 连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.14</version>
+        </dependency>
