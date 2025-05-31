@@ -1,0 +1,45 @@
+CREATE TABLE milepost(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(40),
+    launchtime DATE,
+    depict VARCHAR(255),
+    state INT
+);
+
+INSERT INTO milepost VALUES (1, '东方红一号', '1970-4-24', '中国发射的第一颗人造卫星', 0);
+INSERT INTO milepost VALUES (2, '神舟五号', '2003-10-15', '中国发射的第一艘载人航天飞船', 0);
+INSERT INTO milepost VALUES (3, '嫦娥一号', '2007-10-24', '中国发射的第一颗绕月人造卫星', 0);
+/**
+ * 
+ * 1、创建数据库 
+ *      CREATE DATABASE milepost;
+ *      use milepost;
+ * 2、创建所需的表
+ *      CREATE TABLE milepost(
+ *          id int primary key auto_increment,
+ *          name varchar(40),
+ *          launchtime date,
+ *          depict varchar(255),
+ *          state int
+ *       );
+ * 3、增加所需的测试数据
+ *      INSERT INTO milepost(id, name, launchtime, depict, state) VALUES
+ *                  (1, '东方红一号', '1970-04-24', '中国第一颗人造卫星', 0);
+ *      INSERT INTO milepost(id, name, launchtime, depict, state) VALUES
+ *                  (2, '神舟五号', '2003-10-15', '中国首次载人航天', 0);
+ *      INSERT INTO milepost(id, name, launchtime, depict, state) VALUES
+ *                  (3, '嫦娥一号', '2007-10-24', '中国首次月球探测', 0);
+ */
+
+/**
+ * 项目所需库
+ * 自行下载所需库
+ * src\ --> Java代码
+ * lib\ --> 依赖的库，也就是jar包
+ * build \ --> 编译后的class文件
+ * 
+ * 推荐使用Maven构建工具创建相关项目
+ * 需要安装Maven工具包，idea自带3.9.x
+ * MVN仓库：https://mvnrepository.com/
+ * 使用Maven仓库，需要Maven工具以及设置镜像 https://maven.aliyun.com
+ */
